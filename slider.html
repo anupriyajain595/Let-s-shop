@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider css</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+       .slider{
+           overflow:hidden;
+
+       }
+       .slider figure{
+           position:relative;
+           width:500%;
+           margin:0;
+           left:0;
+           animation: 20s slider infinite;
+       }
+       .slider figure img{
+           width:20%;
+           float:left;
+       }
+       @keyframes slider {
+           0% {
+               left:0;
+           }
+           20%{
+               left:0;
+           }
+           25%{
+               left:-100%;
+           }
+           45%{
+               left:-100%;
+           }
+           50%{
+               left:-200%;
+           }
+           60%{
+               left:-200%;
+           }
+           75%{
+               left:-300%;
+           }
+           85%{
+               left:-300%;
+           }
+           95%{
+               left:-400%;
+           }
+           100%{
+               left:500%;
+           }
+       }
+    
+    </style>
+</head>
+<body>
+   <div class="slider">
+    <figure>
+    <img src="https://rukminim1.flixcart.com/flap/1400/540/image/6874c060aad0f88d.jpg?q=50" alt="image1"width="1400px">
+    <img src="https://rukminim1.flixcart.com/flap/1400/540/image/9273dbb94255cd29.jpeg?q=50" alt="image2" width="1400px">
+    <img src="https://rukminim1.flixcart.com/flap/1400/540/image/1c509497b712a280.jpg?q=50" alt="image3"width="1400px">
+    <img src="https://rukminim1.flixcart.com/flap/1400/540/image/c9a002b55864a977.jpg?q=50" alt="image4"width="1400px" >
+    <img src="	https://rukminim1.flixcart.com/flap/1400/540/image/535e1e97c62f4f1a.jpg?q=50" alt="image5"width="1400px">
+    <div class="content">
+    <div class="slide left">
+        <span class="fas fa-angle-left"></span>
+    </div>
+    <div class="slide right">
+        <span class="fas fa-angle-left"></span>
+    </div>
+</div>
+    </figure>
+   </div>
+</body>
+</html>

@@ -1,0 +1,144 @@
+@media screen and (max-width:1150px){
+    body{
+        background-color:gray;
+    }
+    header{
+        height:4vh;
+    }
+    nav{
+    flex-direction:row;
+    }
+    .logo{
+        justify-content:left;
+        margin: 12px 0px;
+        display: flex;
+    }
+    nav ul{
+        height: 3vh;
+        align-items: center;
+        display: flex;
+    }
+    nav ul li{
+        padding: 0px 15px;
+    }
+    .logo img{
+        width:80px;
+        padding: 0px 5px;
+    }
+    .search input{
+        width: 45vw;
+        height: 2vh;
+        border-radius: 5px;
+        margin: 0px 12px;
+        padding: 0px 20px;
+      }
+      .btn{
+        padding: 5px 8px;
+        color: white;
+        background-color: blue;
+        border: 2px solid white;
+        border-radius: 7px;
+        cursor: pointer
+      }
+    }
+    @media screen and (max-width:900px) {
+        body{
+            background-color:gray;
+        }
+        header{
+            height: 4vh;
+        }
+        nav{
+        flex-direction:row;
+        }
+        .logo{
+            justify-content:left;
+            margin: 4px 0px;
+            display: flex;
+        }
+        nav ul{
+            height: 3vh;
+            align-items: center;
+            display: flex;
+        }
+        nav ul li{
+            padding: 0px 12px;
+        }
+        .logo img{
+            width:65px;
+            padding: 0px 6px;
+        }
+        .search input{
+            width: 30vw;
+            height: 3vh;
+            border-radius: 5px;
+            margin: 0px 12px;
+            padding: 0px 20px;
+          }
+          .btn{
+            padding: 2px 5px;
+            color: white;
+            background-color: blue;
+            border: 2px solid white;
+            border-radius: 7px;
+            cursor: pointer
+          }
+          .card-item {
+            width: 25vw;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin: 0px 5px;
+          }
+        }
+        @media screen and (max-width:700px) {
+            body{
+                background-color:gray;
+            }
+            header{
+                height: 4vh;
+            }
+            nav{
+            flex-direction:row;
+            }
+            .logo{
+                justify-content:left;
+                margin: 4px 0px;
+                display: flex;
+            }
+            nav ul{
+                height: 3vh;
+                align-items: center;
+                display: flex;
+            }
+            nav ul li{
+                padding: 0px 12px;
+            }
+            .logo img{
+                width:65px;
+                padding: 0px 6px;
+            }
+            .search input{
+                width: 35vw;
+                height: 2vh;
+                border-radius: 5px;
+                margin: 0px 12px;
+                padding: 0px 20px;
+              }
+              .btn{
+                padding: 2px 5px;
+                color: white;
+                background-color: blue;
+                border: 2px solid white;
+                border-radius: 7px;
+                cursor: pointer
+              }
+              .card-item {
+                width: 25vw;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                margin: 0px 5px;
+              }
+            }
+        
